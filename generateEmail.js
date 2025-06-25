@@ -4,7 +4,7 @@ async function generateEmail(prompt) {
   const headers = {
     Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
     'Content-Type': 'application/json',
-    'HTTP-Referer': 'http://localhost:5173', // change this to your domain if deployed
+    'HTTP-Referer': 'https://email-me-five.vercel.app/', // change this to your domain if deployed
     'X-Title': 'MailFlow AI',
   };
 
